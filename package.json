@@ -1,0 +1,31 @@
+{
+  "name": "html-scaffolding",
+  "version": "1.0.0",
+  "description": "HTML scaffolding for projects",
+  "main": "index.js",
+  "scripts": {
+    "serve": "python -m SimpleHTTPServer",
+    "test": "jest test/ --config=test/jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusbotella/html-scaffolding.git"
+  },
+  "author": "Jesús Botella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesusbotella/html-scaffolding/issues"
+  },
+  "homepage": "https://github.com/jesusbotella/html-scaffolding#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "intersection-observer": "^0.6.0",
+    "jest": "^24.7.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.4",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
